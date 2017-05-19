@@ -1,63 +1,144 @@
 
-body
-    background: url(bg-img.jpg)
-    height: 500px
-    background-attachment: fixed
-    background-position: center
-    background-repeat: no-repeat
-    background-size: cover
-
+//header image
+.bg-img
+    background-image: linear-gradient(rgba(0, 0, 0, .4), #1a1a1a), url(bg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+//navigation styling
 .navbar, .navbar-header
-    background-color: transparent
+    background-color: #a2b2b2
     border: 0px
-   
 
-.navbar .navbar-nav
+.navbar-default .navbar-nav > li > a, a:active
+    color: white
+    font-size: 20px
+    text-transform: uppercase
+    font-family: trebuchet ms
+
+.navbar-default .navbar-nav > li > a:hover
+    color: white
+    text-decoration: underline #00b7b7
+
+.navbar-default .navbar-brand
+    color: white
+
+.navbar .navbar-nav 
     display: inline-block
     float: none
 
-.navbar .navbar-collapse
+.navbar .navbar-collapse 
     text-align: center
+    background-color: transparent
+    border: 0px
 
-.navbar-nav a
-    color: white
 
-
-.container-header
+//Title styling
+.title-header
     text-align: center
     color: white
-    font-family: 'Indie Flower', cursive
+    padding-top: 60px
+    padding-right: 20px
+
+
+
+
+
+//font styling
 
 h1
-    font-size: 60px
+    font-size: 80px
+    font-weight: bolder
     margin-bottom: 50px
+    color: #00b7b7
+    font-family: 'Julius Sans One', sans-serif
+    transition: all .2s ease-in-out
 
-.container-about
-    background-color: rgba(172,207,221,.7)
-    font-family: 'Open Sans', sans-serif
+h1:hover
+    transform: scale(1)
+    color: #7fffff
 
 
+h2
+    font-size: 45px
+    font-family: 'Archivo Narrow', sans-serif
+    text-align: center
+    padding-bottom: 5%
+    color: white
+    text-decoration: overline underline #00b7b7
 
-div.nothing
-    width: 100px
-    padding: 150px
+.blink
+    animation: blinker 1.25s linear infinite
+    
+@keyframes blinker
+    50% { opacity: 0 }    
 
-.container-projects
-    padding-top: 25px
-    background-color: rgba(172,207,221,.7)
-
-.container-footer
-    padding-top: 25px
-    background-color: rgba(172,207,221,.7)   
+h3
+    font-size: 35px
+    font-family: 'Archivo Narrow', sans-serif
     text-align: center
     color: white
+    text-decoration: underline #00b7b7
+    padding-bottom: 5%
+
+h4
+    font-weight: bold
+    //left off
+
 
 p
-    text-align: center;
-    color: white;   
-    font-family: 'Open Sans', sans-serif
-    font-size: 25px
+    font-size: 15px
+    font-family: 'Source Sans Pro', sans-serif
+    color: white
+    text-align: center   
+
+b
+    color: #009999
+
+li
+    color: white
 
 
-.container-progress
-    background-color: rgba(172,207,221,.7)
+
+
+
+//about container
+.about
+    width: 100%
+    padding-top: 10%
+    padding-bottom: 10%
+    overflow-y: auto
+
+img
+    width: 300px 
+    height: 300px
+
+//projects container
+.projects
+    padding-top: 5%
+    padding-bottom: 100%
+    width: 100%
+
+
+
+//skills container
+.skills
+    padding-top: 5%
+    padding-bottom: 50%
+    width: 100%
+
+
+
+//contact container
+.contact
+    padding-bottom: 20%
+    padding-top: 5%
+    width: 100%
+    text-align: center
+
+
+
+
+
