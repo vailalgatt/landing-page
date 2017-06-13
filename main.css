@@ -1,5 +1,5 @@
 .bg-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), #1a1a1a), url(bg-img.jpg);
+  background-image: url(https://static.pexels.com/photos/399161/pexels-photo-399161.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7,7 +7,7 @@
 }
 
 .navbar, .navbar-header {
-  background-color: #a2b2b2;
+  background-color: black;
   border: 0px;
 }
 
@@ -20,7 +20,7 @@
 
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
-  text-decoration: underline #00b7b7;
+  text-decoration: underline #ff99cc;
 }
 
 .navbar-default .navbar-brand {
@@ -49,23 +49,18 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   margin-bottom: 50px;
-  color: #00b7b7;
+  color: #ff3377;
   font-family: 'Julius Sans One', sans-serif;
   transition: all .2s ease-in-out;
 }
 
-h1:hover {
-  transform: scale(1);
-  color: #7fffff;
-}
-
 h2 {
   font-size: 45px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   padding-bottom: 5%;
   color: white;
-  text-decoration: overline underline #00b7b7;
+  font-weight: bold;
 }
 
 .blink {
@@ -99,7 +94,7 @@ p {
 }
 
 b {
-  color: #009999;
+  color: #ff99cc;
 }
 
 li {
@@ -118,8 +113,8 @@ img {
   height: 300px;
 }
 
-.projects {
-  padding-top: 5%;
+#projects {
+  padding-top: 25%;
   padding-bottom: 100%;
   width: 100%;
 }
@@ -135,4 +130,43 @@ img {
   padding-top: 5%;
   width: 100%;
   text-align: center;
+}
+
+#img {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: solid #ff99cc;
+}
+
+.img-effects:hover #img {
+  opacity: 0.3;
+}
+
+.img-effects:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: grey;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding: 16px 32px;
+  width: 100%;
+  height: 100%;
 }
