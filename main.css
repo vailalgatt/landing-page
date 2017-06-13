@@ -77,8 +77,8 @@ h3 {
   font-size: 35px;
   font-family: 'Archivo Narrow', sans-serif;
   text-align: center;
-  color: white;
-  text-decoration: underline #00b7b7;
+  color: #ff3377;
+  text-decoration: underline black;
   padding-bottom: 5%;
 }
 
@@ -99,6 +99,10 @@ b {
 
 li {
   color: white;
+}
+
+.well {
+  background: white;
 }
 
 .about {

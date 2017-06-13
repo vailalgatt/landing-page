@@ -52,7 +52,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-6">
-                    <div class="img-effects">
+                    <div class="img-effects" id="about">
                         <img src="img/intro.jpg" class="img-rounded" alt="img" id="img">
                         <div class="middle">
                             <div class="text">
@@ -123,107 +123,53 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
-                <div class="img-effects">
-                    <img src="https://static.pexels.com/photos/29696/pexels-photo-29696.jpg" class="img-rounded" alt="img" id="img">
-                    <div class="middle">
-                        <div class="text">Pet Welfare is a 501 (c)(3) non-profit, no-kill animal shelter located on Eglin Air Force Base in
-                            Northwest Florida. We support military members and the local community by rehoming 100 - 150
-                            homeless cats and dogs surrendered to us annually.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4">
-                <div class="img-effects">
-                    <img src="https://static.pexels.com/photos/29696/pexels-photo-29696.jpg" class="img-rounded" alt="img" id="img">
-                    <div class="middle">
-                        <div class="text">Pet Welfare is a 501 (c)(3) non-profit, no-kill animal shelter located on Eglin Air Force Base in
-                            Northwest Florida. We support military members and the local community by rehoming 100 - 150
-                            homeless cats and dogs surrendered to us annually.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!--<div class="title-header">
-            <h1 contentEditable role='textbox' aria-multiline='true'>VAIL ALGATT</h1>
-               <h2><span class="blink">WEB DEVELOPER</span></h2>
-        </div>
             <div class="row">
-                <div class="projects" id="projects">
-                    <div class="col-xs-12">
-                        <h3>PROJECTS</h3>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <a href="https://vailalgatt.github.io/Music-Player/" target="_blank"><img src="img/musicPlayer.png" class="img-responsive center-block"></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <a href="https://vailalgatt.github.io/SlapGame/" target="_blank"><img src="img/elDorado.png" class="img-responsive center-block"></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <a href="https://vailalgatt.github.io/inspire/" target="_blank"><img src="img/inspire.png" class="img-responsive center-block"></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <p>project4</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <p>project5</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <p>project6</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
+                    <div class="well">
                 <div class="skills" id="skills">
-                    <div class="col-xs-12">
-                        <h3>SKILLS BREAKDOWN</h3>
-                    </div>
-                    <div class="col-xs-6">
-                        <div id="piechart">
-                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                            <script type="text/javascript">
-                                // Load google charts
-                                google.charts.load('current', { 'packages': ['corechart'] });
-                                google.charts.setOnLoadCallback(drawChart);
-
-                                // Draw the chart and set the chart values
-                                function drawChart() {
-                                    var data = google.visualization.arrayToDataTable([
-                                        ['Breakdown', 'Skills Percentage'],
-                                        ['CSS', 60],
-                                        ['JavaScript', 25],
-                                        ['MySQL', 20],
-                                        ['HTML', 90],
-                                        ['C#', 10]
-                                    ]);
-
-                                    // Optional; add a title and set the width and height of the chart
-                                    var options = { 'title': 'Skills', 'width': 450, 'height': 300 };
-
-                                    // Display the chart inside the <div> element with id="piechart"
-                                    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-                                    chart.draw(data, options);
-                                }
-                            </script>
+                        <div class="col-xs-12">
+                            <h3>SKILLS BREAKDOWN</h3>
                         </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <h4><ul><b>Goals </b></ul></h4>
-                        <li>Learn two new programming languages, and two new frameworks to a proficient level by the end of 2017.</li>
+                        <div class="col-xs-6">
+                            <div id="piechart">
+                                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                                <script type="text/javascript">
+                                    // Load google charts
+                                    google.charts.load('current', { 'packages': ['corechart'] });
+                                    google.charts.setOnLoadCallback(drawChart);
+
+                                    // Draw the chart and set the chart values
+                                    function drawChart() {
+                                        var data = google.visualization.arrayToDataTable([
+                                            ['Breakdown', 'Skills Percentage'],
+                                            ['CSS', 60],
+                                            ['JavaScript', 25],
+                                            ['MySQL', 20],
+                                            ['HTML', 90],
+                                            ['C#', 10]
+                                        ]);
+
+                                        // Optional; add a title and set the width and height of the chart
+                                        var options = { 'title': 'Skills', 'width': 450, 'height': 300 };
+
+                                        // Display the chart inside the <div> element with id="piechart"
+                                        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                                        chart.draw(data, options);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="img-effects">
+                                <img src="https://static.pexels.com/photos/3299/postit-scrabble-to-do.jpg" class="img-rounded" alt="img" id="img">
+                                <div class="middle">
+                                    <div class="text">
+                                        <p><b>Goals </b></p>
+                                        <p>Learn two new programming languages, and two new frameworks to a proficient level
+                                            by the end of 2017.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -243,9 +189,9 @@
                     </div>
                 </div>
             </div>
-        </div>-->
-    </div>
-    <script src="script.js"></script>
+        </div>
+
+        <script src="script.js"></script>-->
 </body>
 
 </html>
