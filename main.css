@@ -9,7 +9,7 @@
 #sidebar {
   position: fixed;
   width: 250px;
-  height: auto;
+  height: 100%;
   background: #000;
 }
 
@@ -18,6 +18,10 @@
   height: 500px;
   width: auto;
   position: relative;
+}
+
+#header {
+  text-align: right;
 }
 
 .navbar, .navbar-header {
@@ -66,13 +70,11 @@ h1 {
   color: #ff99cc;
   font-family: 'Julius Sans One', sans-serif;
   transition: all .2s ease-in-out;
-  text-align: center;
 }
 
 h2 {
   font-size: 45px;
   font-family: 'Julius Sans One', sans-serif;
-  text-align: center;
   padding-bottom: 5%;
   color: #ff99cc;
   font-weight: bold;
@@ -118,10 +120,6 @@ li {
 .well {
   background: white;
   border: solid #ff99cc;
-}
-
-#contact {
-  background-color: white;
 }
 
 #icon {
