@@ -6,6 +6,20 @@
   background-size: cover;
 }
 
+#sidebar {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  background: #000;
+}
+
+#main {
+  margin-left: 250px;
+  height: 500px;
+  width: auto;
+  position: relative;
+}
+
 .navbar, .navbar-header {
   background-color: black;
   border: 0px;
@@ -49,9 +63,10 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   margin-bottom: 50px;
-  color: white;
+  color: #ff99cc;
   font-family: 'Julius Sans One', sans-serif;
   transition: all .2s ease-in-out;
+  text-align: center;
 }
 
 h2 {
@@ -59,7 +74,7 @@ h2 {
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   padding-bottom: 5%;
-  color: white;
+  color: #ff99cc;
   font-weight: bold;
 }
 
