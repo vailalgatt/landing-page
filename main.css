@@ -1,5 +1,5 @@
 .bg-img {
-  background-image: url(https://static.pexels.com/photos/9159/pexels-photo.jpg);
+  background-image: url(https://static.pexels.com/photos/197486/pexels-photo-197486.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -120,6 +120,7 @@ li {
 .well {
   background: white;
   border: solid #ff99cc;
+  margin-top: 15%;
 }
 
 #icon {
@@ -139,13 +140,7 @@ a i {
 }
 
 #projects {
-  padding-top: 15%;
-  width: 100%;
-}
-
-#skills {
-  padding-top: 15%;
-  width: 100%;
+  margin: 0px;
 }
 
 #img {
@@ -156,6 +151,7 @@ a i {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
+  top: 4.7em;
 }
 
 .middle {
