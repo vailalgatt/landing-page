@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="bg-img">
             <div class="col-xs-12" id="header">
-                <h1 contentEditable role='textbox' aria-multiline='true'>VAIL ALGATT</h1>
+                <h1>VAIL ALGATT</h1>
                 <h2><span class="blink">WEB DEVELOPER</span></h2>
             </div>
 
@@ -25,17 +25,17 @@
             <div class="col-xs-6" id="sidebar">
                 <div class="title-header">
                     <nav class="navbar navbar-default">
-                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Contact Me</a></li>
-                            <li><a href="https://vailalgatt.github.io/resume/" target="_blank"></i> Resume</a></li>
-                            <li class="list-item social-icon" style="display: list-item"></li>
-                        </ul>
-                    </div>
-                </nav>
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="https://vailalgatt.github.io/resume/" target="_blank"> Resume</a></li>
+                                <li class="list-item social-icon" style="display: list-item"></li>
+                                <li><a>Contact Me<i class="fa fa-arrow-down" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
 
 
                     <div class="row" id="contact">
@@ -111,6 +111,16 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="well">
+                                        <img src="img/DMEM.png" class="img-rounded" alt="img" id="img">
+                                        <div class="text">Are you a DM that needs help managing all the encounters in your campaign? Try this
+                                            DM Encounter Manager!</b> here:
+                                            <a href="https://dmem.herokuapp.com/#/"><i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-xs-6">
                                     <div class="well">
                                         <img src="img/kanban.png" class="img-rounded" alt="img" id="img">
@@ -138,43 +148,50 @@
                                 <div class="col-xs-12">
                                     <h3>SKILLS BREAKDOWN</h3>
                                 </div>
-                                <div class="col-xs-6">
-                                    <div id="piechart">
-                                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                                        <script type="text/javascript">
-                                            // Load google charts
-                                            google.charts.load('current', { 'packages': ['corechart'] });
-                                            google.charts.setOnLoadCallback(drawChart);
+                                <div clas="row">
+                                    <div class="col-xs-6">
+                                        <div class="well">
+                                            <div id="piechart">
+                                                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                                                <script type="text/javascript">
+                                                    // Load google charts
+                                                    google.charts.load('current', { 'packages': ['corechart'] });
+                                                    google.charts.setOnLoadCallback(drawChart);
 
-                                            // Draw the chart and set the chart values
-                                            function drawChart() {
-                                                var data = google.visualization.arrayToDataTable([
-                                                    ['Breakdown', 'Skills Percentage'],
-                                                    ['CSS', 60],
-                                                    ['JavaScript', 25],
-                                                    ['MySQL', 20],
-                                                    ['HTML', 90],
-                                                    ['C#', 10]
-                                                ]);
+                                                    // Draw the chart and set the chart values
+                                                    function drawChart() {
+                                                        var data = google.visualization.arrayToDataTable([
+                                                            ['Breakdown', 'Skills Percentage'],
+                                                            ['CSS', 35],
+                                                            ['JavaScript', 35],
+                                                            ['MySQL', 10],
+                                                            ['HTML', 60],
+                                                            ['C#', 20]
+                                                        ]);
 
-                                                // Optional; add a title and set the width and height of the chart
-                                                var options = { 'title': 'Skills', 'width': 850, 'height': 590 };
+                                                        // Optional; add a title and set the width and height of the chart
+                                                        var options = { 'title': 'Skills'};
 
-                                                // Display the chart inside the <div> element with id="piechart"
-                                                var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-                                                chart.draw(data, options);
-                                            }
-                                        </script>
+                                                        // Display the chart inside the <div> element with id="piechart"
+                                                        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                                                        chart.draw(data, options);
+                                                    }
+                                                </script>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="img-effects">
-                                        <img src="https://static.pexels.com/photos/316466/pexels-photo-316466.jpeg" class="img-rounded" alt="img" id="img">
-                                        <div class="middle">
-                                            <div class="text">
-                                                <p><b>Goals </b></p>
-                                                <p>Learn two new programming languages, and two new frameworks to a proficient
-                                                    level by the end of 2017.</p>
+                                    <div class="col-xs-6">
+                                        <div class="well">
+                                            <div class="img-effects">
+                                                <img src="https://static.pexels.com/photos/316466/pexels-photo-316466.jpeg" class="img-rounded" alt="img" id="img">
+                                                <div class="middle">
+                                                    <div class="text">
+                                                        <ul><b>Goals </b></ul>
+                                                        <li>Refine JavaScript skills</li>
+                                                        <li>Get more involved in my local tech community</li>
+                                                        <li>Build a C# Web App</li>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -188,6 +205,8 @@
             </div>
         </div>
     </div>
+
+
     <script src="script.js"></script>
 </body>
 

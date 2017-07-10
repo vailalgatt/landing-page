@@ -1,9 +1,10 @@
-.bg-img {
-  background-image: url(https://static.pexels.com/photos/197486/pexels-photo-197486.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+body {
+  background-color: #A0919F;
+}
+
+#piechart {
+  height: 100%;
+  width: 100%;
 }
 
 #sidebar {
@@ -181,4 +182,16 @@ a i {
   padding: 16px 32px;
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-device-width: 1280px) {
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 850px) {
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 650px) {
+  width: 50%;
 }
