@@ -3,10 +3,16 @@
 body
     background: #f9f9f9;
 
+.bg-img
+    background-image: linear-gradient(rgba(0, 0, 0, .1), #1a1a1a), url(https://static.pexels.com/photos/442575/pexels-photo-442575.jpeg)
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 //piechart
-#piechart
-    height: 100% 
-    width: 100%
+#chartdiv 
+
 
 //sidebar styling
 #sidebar
@@ -38,7 +44,7 @@ body
 
 .navbar-default .navbar-nav > li > a:hover
     color: white
-    text-decoration: underline #ff99cc
+    text-decoration: underline #FFEC00
 
 .navbar-default .navbar-brand
     color: white
@@ -70,16 +76,17 @@ h1
     font-size: 80px
     font-weight: bolder
     margin-bottom: 50px
-    color: #ff99cc
+    color: #FFEC00
     font-family: 'Julius Sans One', sans-serif
     transition: all .2s ease-in-out
+    text-shadow: 2px 2px #FFF46A
 
 
 h2
     font-size: 45px
     font-family: 'Julius Sans One', sans-serif
     padding-bottom: 5%
-    color: #ff99cc
+    color: #FFEC00
     font-weight: bold
 
 .blink
@@ -107,41 +114,45 @@ p
     text-align: center   
 
 b
-    color: #ff99cc
+    color: #FFEC00
 
 li
     color: white
 
 .well 
  background: white
- border: solid #ff99cc
+ border: solid #FFEC00
  margin-top: 15%
 
 //footer
 #contact
+    padding: 15px
+    border-top: solid #FFEC00
+    background: white
 
 #icon
     text-align: center
 
 a i
-    color: #ff99cc
+    color: #FFEC00
     text-align: center
 
 
 //about container
 .about
-    width: 100%
-    padding-top: 10px
-    padding-bottom: 15px
-    overflow-y: auto
+    padding: 15px
+    border-bottom: solid #FFEC00
+    background: white
 
 //projects container
 #projects
-    margin: 0px;
+    padding-top: 15px;
 
 //skills container
 #skills
-
+    padding: 30px
+    border-top: solid #FFEC00
+    background: white
 
 
 
@@ -165,7 +176,7 @@ a i
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
-  border: solid #ff99cc
+  border: solid #FFEC00
 
 .img-effects:hover #img
   opacity: 0.3

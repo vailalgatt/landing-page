@@ -2,9 +2,12 @@ body {
   background: #f9f9f9;
 }
 
-#piechart {
-  height: 100%;
-  width: 100%;
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #1a1a1a), url(https://static.pexels.com/photos/442575/pexels-photo-442575.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #sidebar {
@@ -39,7 +42,7 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
-  text-decoration: underline #ff99cc;
+  text-decoration: underline #FFEC00;
 }
 
 .navbar-default .navbar-brand {
@@ -68,16 +71,17 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   margin-bottom: 50px;
-  color: #ff99cc;
+  color: #FFEC00;
   font-family: 'Julius Sans One', sans-serif;
   transition: all .2s ease-in-out;
+  text-shadow: 2px 2px #FFF46A;
 }
 
 h2 {
   font-size: 45px;
   font-family: 'Julius Sans One', sans-serif;
   padding-bottom: 5%;
-  color: #ff99cc;
+  color: #FFEC00;
   font-weight: bold;
 }
 
@@ -111,7 +115,7 @@ p {
 }
 
 b {
-  color: #ff99cc;
+  color: #FFEC00;
 }
 
 li {
@@ -120,8 +124,14 @@ li {
 
 .well {
   background: white;
-  border: solid #ff99cc;
+  border: solid #FFEC00;
   margin-top: 15%;
+}
+
+#contact {
+  padding: 15px;
+  border-top: solid #FFEC00;
+  background: white;
 }
 
 #icon {
@@ -129,19 +139,24 @@ li {
 }
 
 a i {
-  color: #ff99cc;
+  color: #FFEC00;
   text-align: center;
 }
 
 .about {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  overflow-y: auto;
+  padding: 15px;
+  border-bottom: solid #FFEC00;
+  background: white;
 }
 
 #projects {
-  margin: 0px;
+  padding-top: 15px;
+}
+
+#skills {
+  padding: 30px;
+  border-top: solid #FFEC00;
+  background: white;
 }
 
 #img {
@@ -163,7 +178,7 @@ a i {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  border: solid #ff99cc;
+  border: solid #FFEC00;
 }
 
 .img-effects:hover #img {
