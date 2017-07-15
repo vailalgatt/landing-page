@@ -10,11 +10,8 @@ body {
   background-size: cover;
 }
 
-#sidebar {
-  position: fixed;
-  width: 250px;
-  height: 100%;
-  background: #000;
+.languages {
+  font-size: 65px;
 }
 
 #main {
@@ -74,7 +71,6 @@ h1 {
   color: #FFEC00;
   font-family: 'Arvo', serif;
   transition: all .2s ease-in-out;
-  text-shadow: 2px 2px #FFF46A;
 }
 
 h2 {
@@ -83,6 +79,14 @@ h2 {
   padding-bottom: 5%;
   color: #FFEC00;
   font-weight: bold;
+}
+
+h3 {
+  font-weight: bolder;
+  margin-bottom: 50px;
+  color: #FFEC00;
+  font-family: 'Arvo', serif;
+  transition: all .2s ease-in-out;
 }
 
 .blink {
