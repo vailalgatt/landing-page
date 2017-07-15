@@ -72,14 +72,14 @@ h1 {
   font-weight: bolder;
   margin-bottom: 50px;
   color: #FFEC00;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Arvo', serif;
   transition: all .2s ease-in-out;
   text-shadow: 2px 2px #FFF46A;
 }
 
 h2 {
-  font-size: 45px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  font-family: 'Cutive Mono', monospace;
   padding-bottom: 5%;
   color: #FFEC00;
   font-weight: bold;
@@ -96,8 +96,8 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 45px;
+  font-family: 'Arvo', serif;
   text-align: center;
   color: black;
   padding-bottom: 5%;
@@ -109,7 +109,7 @@ h4 {
 
 p {
   font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   color: white;
   text-align: center;
 }
@@ -136,6 +136,7 @@ li {
 
 #icon {
   text-align: center;
+  size: 50px;
 }
 
 a i {
@@ -151,6 +152,7 @@ a i {
 
 #projects {
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #skills {
@@ -192,7 +194,7 @@ a i {
 .text {
   background-color: grey;
   color: white;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 18px;
   padding: 16px 32px;
   width: 100%;
