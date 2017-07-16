@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                
+
                 <div id="skills">
                     <div class="row">
                         <div class="col-xs-12">
@@ -191,10 +191,37 @@
             <div class="row" id="contact">
                 <h3>COMMUNICATE><span class="blink">_</span></h3>
                 <div class="col-xs-4" id="icon">
-                    <a href="mailto:vail.algatt@gmail.com"> <img src="img/speech-bubble.png" class="logo"></a>
+                    <a href="https://github.com/vailalgatt"> <img src="img/github-social-logo.png" class="logo"></a>
                 </div>
                 <div class="col-xs-4" id="icon">
-                    <a href="https://github.com/vailalgatt"> <img src="img/github-social-logo.png" class="logo"></a>
+                    <a onclick="contactForm()"><img src="img/speech-bubble.png" class="logo"></a>
+                    <div id="myDIV">
+                        <form>
+                            <div class="form-group">
+                                <label class="control-label " for="name">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+                                <input class="form-control" id="email" name="email" type="text" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label " for="subject">Subject</label>
+                                <input class="form-control" id="subject" name="subject" type="text" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label " for="message">Message</label>
+                                <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button class="btn btn-warning " name="submit" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-xs-4" id="icon">
                     <a href="https://www.linkedin.com/in/vail-algatt-972908123/"> <img src="img/linkedin.png" class="logo"></a>
