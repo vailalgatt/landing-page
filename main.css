@@ -106,7 +106,17 @@ h3 {
 }
 
 h4 {
-  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Arvo', serif;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px #e6d400;
+  padding-bottom: 5%;
+}
+
+h4:hover {
+  transform: scale(1);
+  text-shadow: 2px 2px #FFEC00;
 }
 
 p {
