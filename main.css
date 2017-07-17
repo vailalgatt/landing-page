@@ -216,6 +216,7 @@ a i {
   transition: .5s ease;
   backface-visibility: hidden;
   top: 4.7em;
+  background: black;
 }
 
 .middle {
