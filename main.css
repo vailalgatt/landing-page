@@ -163,6 +163,10 @@ form {
   text-align: center;
 }
 
+.img-rounded {
+  border: dashed;
+}
+
 .well {
   background: white;
   border: solid #FFEC00;
@@ -200,6 +204,11 @@ a i {
   padding: 30px;
   border-top: solid #FFEC00;
   background: white;
+}
+
+#piechart {
+  width: 100%;
+  height: 100%;
 }
 
 #img {
