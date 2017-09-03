@@ -3,7 +3,7 @@ body {
 }
 
 .bg-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #1a1a1a), url(https://static.pexels.com/photos/442575/pexels-photo-442575.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #1a1a1a), url(img/BG.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -59,11 +59,24 @@ body {
   border: 0px;
 }
 
-.title-header {
+.title-container {
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media screen and (min-width: 550px) {
+  .title-container {
+    padding: 0 40px;
+  }
+}
+
+.title-content {
+  display: table-cell;
+  position: relative;
+  z-index: 10;
   text-align: center;
-  color: white;
-  padding-top: 60px;
-  padding-right: 20px;
+  vertical-align: middle;
 }
 
 h1 {
