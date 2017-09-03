@@ -274,6 +274,12 @@ a i {
   height: 100%;
 }
 
+@media only screen and (max-device-width: 650px) {
+  .text {
+    display: none;
+  }
+}
+
 @media only screen and (max-device-width: 1280px) {
   width: 100%;
 }
@@ -283,5 +289,5 @@ a i {
 }
 
 @media only screen and (max-device-width: 650px) {
-  width: 50%;
+  width: 100%;
 }
